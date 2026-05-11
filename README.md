@@ -47,7 +47,7 @@
 ## 项目结构
 
 ```plaintext
-paicoding/
+kaifazhe/
 ├── paicoding-api/         # API 定义层
 │   └── src/main/java/com/example/app/api/
 │       ├── model/         # 数据模型（DO/DTO/VO）
@@ -73,6 +73,7 @@ paicoding/
 │       ├── controller/    # REST API 控制器
 │       ├── config/        # 配置类
 │       └── interceptor/   # 拦截器
+├── docs/                  # 文档目录
 └── pom.xml                # 父级 Maven 配置
 ```
 
@@ -91,7 +92,7 @@ paicoding/
 1. **克隆项目**
 ```bash
 git clone https://github.com/cyh6213/kaifazhe.git
-cd kaifazhe/paicoding
+cd kaifazhe
 ```
 
 2. **配置数据库**
